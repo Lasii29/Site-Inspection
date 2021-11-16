@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Site_Inspection.Staff">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAgACAAAAAAAEAAAAAAgACAAAAIAAIAAg=</HashCode>
+      <FileName>Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site_Inspection.Manager">
+    <Position X="4.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Site_Inspection.Admin">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAACAAgABAEAAAAAAAAAAAAAABAAAAAAAAAAg=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Site_Inspection.SiteReport">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <AssociationLine Name="Staff" Type="Site_Inspection.Staff" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="4.316" />
+        <Point X="3.375" Y="4.316" />
+        <Point X="3.375" Y="2.312" />
+        <Point X="2" Y="2.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAgAQAAAAIAA=</HashCode>
+      <FileName>SiteReport.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Staff" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
